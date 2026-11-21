@@ -1,0 +1,17 @@
+title: NexoCMD
+description: Cliente SSH, SFTP y RDP para Mac, iPhone e iPad.
+lang: es
+theme: minima
+header_pages:
+  - manual.md
+  - caracteristicas.md
+  - novedades.md
+  - soporte.md
+  - privacidad.md
+minima:
+  skin: auto
+
+# Correo público de soporte y privacidad (pendiente de que el propietario lo facilite)
+contact_email: "(correo de contacto en preparación)"
+baseurl: "/nexocmd"
+url: "https://xcrittpm.github.io"
