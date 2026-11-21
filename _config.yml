@@ -11,7 +11,7 @@ header_pages:
 minima:
   skin: auto
 
-# Correo público de soporte y privacidad (pendiente de que el propietario lo facilite)
-contact_email: "(correo de contacto en preparación)"
+# Correo público de soporte y privacidad
+contact_email: "parne_oeste9e@icloud.com"
 baseurl: "/nexocmd"
 url: "https://xcrittpm.github.io"
