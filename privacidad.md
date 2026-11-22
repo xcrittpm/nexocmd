@@ -4,7 +4,7 @@ title: Privacidad
 permalink: /privacidad
 ---
 
-_Última actualización: 21 de noviembre de 2026_
+_Última actualización: 22 de noviembre de 2026_
 
 NexoCMD está diseñada para que tus datos sean solo tuyos.
 
@@ -21,8 +21,20 @@ cuenta.
 - **Contraseñas, claves privadas y frases de paso**: en el llavero (Keychain) de tu dispositivo, cifradas por el
   sistema. No se incluyen en las exportaciones.
 
-Estos datos no salen de tu dispositivo salvo que tú los exportes. Si en el futuro la app ofrece sincronización por
-iCloud, se hará a través de **tu propia cuenta de iCloud** y será opcional; esta política se actualizará antes.
+Estos datos no salen de tu dispositivo salvo que tú los exportes o actives la sincronización con iCloud.
+
+## Sincronización con iCloud (opcional)
+
+Si la activas en Ajustes, tus conexiones, carpetas y servidores de confianza se guardan en la **base de datos privada
+de tu propia cuenta de iCloud**, para tenerlos en tu Mac, iPhone e iPad. Se guardan **cifrados de extremo a
+extremo**: solo tus dispositivos pueden leerlos; ni Apple ni nosotros tenemos acceso. Nosotros no tenemos ningún
+servidor y no recibimos esos datos.
+
+Las contraseñas, claves privadas y frases de paso **no se sincronizan** salvo que actives también la opción de
+guardarlas en el **llavero de iCloud**, que Apple cifra de extremo a extremo y sincroniza entre tus dispositivos.
+
+Las carpetas que marques como «solo en este dispositivo» no se sincronizan. Puedes desactivar la sincronización en
+cualquier momento, y borrar los datos de NexoCMD de iCloud desde los ajustes de iCloud de tu dispositivo.
 
 ## Conexiones de red
 
@@ -33,9 +45,18 @@ cifradas, sin pasar por ningún servidor nuestro.
 La barra de estado ejecuta en tu servidor comandos de **solo lectura** para mostrar CPU, memoria, disco y red; esa
 información se muestra en pantalla y no se guarda ni se envía a nadie.
 
+## Portapapeles
+
+En las sesiones de escritorio remoto, si tienes activado «Compartir portapapeles», el texto que copias se comparte
+entre tu dispositivo y el equipo remoto al que estás conectado. No pasa por ningún servidor nuestro.
+
 ## Permisos
 
-- **Archivos**: solo los que eliges para subir o importar, y la carpeta Descargas en Mac para guardar descargas.
+- **Archivos**: solo los que eliges para subir o importar (por ejemplo, una exportación de Remote Desktop
+  Manager), y la carpeta Descargas en Mac para guardar descargas, capturas de pantalla y el texto del terminal.
+- **Fotos** (iPhone y iPad): solo para **añadir** una captura de pantalla cuando tú eliges guardarla ahí. La app no
+  lee tu fototeca.
+- **iCloud**: solo si activas la sincronización.
 - **Red**: para conectar con tus servidores.
 
 ## Menores
