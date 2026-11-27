@@ -4,7 +4,9 @@ title: Privacy Policy
 permalink: /en/privacy
 ---
 
-_Last updated: November 22, 2026_
+_Last updated: November 27, 2026_
+
+This policy applies to NexoCMD for Mac, iPhone, iPad and Windows.
 
 ## Data we collect
 
@@ -17,6 +19,10 @@ analytics, advertising, tracking or third-party tools that do so. No account is 
   on your device.
 - **Passwords, private keys and passphrases**: in your device's Keychain, encrypted by the system. They are never
   included in exports.
+
+**On Windows**, connections and settings are stored in the app's data folder for your user,
+and passwords, private keys and passphrases in **Windows Credential Manager**, encrypted by the system and only on
+that computer.
 
 This data never leaves your device unless you export it or turn on iCloud sync.
 
@@ -32,15 +38,21 @@ Keychain**, which Apple end-to-end encrypts and syncs across your devices.
 Folders you mark as "only on this device" are not synced. You can turn sync off at any time, and delete NexoCMD's
 data from iCloud in your device's iCloud settings.
 
+The Windows version has no sync: its data stays on your computer.
+
 ## Clipboard
 
 In Remote Desktop sessions, if "Share clipboard" is on, the text you copy is shared between your device and the
 remote computer you are connected to. It never goes through any server of ours.
 
+In the terminal, the app only reads the clipboard when you paste, and only writes to it when you copy (or select
+text, if "Copy on select" is on).
+
 ## Permissions
 
 - **Files**: only the ones you choose to upload or import (for example, a Remote Desktop Manager export), and the
   Downloads folder on Mac to save downloads, screenshots and terminal text.
+- **Files on Windows**: only the ones you choose to import a key or your library, and where to save an export.
 - **Photos** (iPhone and iPad): only to **add** a screenshot when you choose to save it there. The app never reads
   your photo library.
 - **iCloud**: only if you turn on sync.
